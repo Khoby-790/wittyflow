@@ -1,0 +1,39 @@
+# Wittyfow
+
+Wittyflow is a nodejs package that handles sending sms using the wittyflow protocol
+
+## Installation
+
+
+```bash
+npm install wittyflow
+```
+
+or
+
+```bash
+yarn add wittyflow
+```
+
+## Usage
+
+```js
+import wittyflow from "wittyflow"
+
+wittyflow.config({
+    application_id: "YOUR APP ID HERE",
+    application_secret:"YOUR APP SECRET HERE",
+    senderName: "YOUR SENDER NAME HERE"
+});
+
+wittyflow.sendMessage("233506339153","message content", options = {}) // options is optional
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -1,0 +1,23 @@
+{
+  "name": "wittyflow",
+  "version": "1.0.4",
+  "description": "handles all the wifftyflow modules current and will handle all future modules too ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wittyflow",
+    "sms",
+    "text-message",
+    "pin-code",
+    "verification"
+  ],
+  "author": "Emmanuel Baidoo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "jsdoc-to-markdown": "^5.0.3"
+  }
+}
