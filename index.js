@@ -48,7 +48,7 @@ const sendMessage = (to,message,options = { type: 1 }) => new Promise((resolve, 
     }
     console.log(form)
     runner.post("/messages/send", form).then(({data}) => {
-        if(data.status !== "2000"){
+        if(data.status !== "success"){
             reject(data.message)
         }else  resolve(true);
     })

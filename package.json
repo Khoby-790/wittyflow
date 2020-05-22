@@ -1,6 +1,6 @@
 {
   "name": "wittyflow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "handles all the wifftyflow modules current and will handle all future modules too ",
   "main": "index.js",
   "scripts": {
