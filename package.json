@@ -1,10 +1,10 @@
 {
   "name": "wittyflow",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "handles all the wifftyflow modules current and will handle all future modules too ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "keywords": [
     "wittyflow",
